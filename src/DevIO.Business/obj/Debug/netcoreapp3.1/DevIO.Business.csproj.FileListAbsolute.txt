@@ -8,3 +8,23 @@ C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Business\obj\Debug\netcoreapp3.1\
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.csproj.CoreCompileInputs.cache
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\bin\Debug\netcoreapp3.1\DevIO.Business.deps.json
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\bin\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.csproj.AssemblyReference.cache
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.AssemblyInfoInputs.cache
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.AssemblyInfo.cs
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.csproj.CoreCompileInputs.cache
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\bin\Debug\netcoreapp3.1\DevIO.Business.deps.json
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\bin\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.csproj.AssemblyReference.cache
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.AssemblyInfoInputs.cache
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.AssemblyInfo.cs
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.csproj.CoreCompileInputs.cache
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.pdb

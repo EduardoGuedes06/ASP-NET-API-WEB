@@ -11,3 +11,29 @@ C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevI
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.deps.json
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.AssemblyReference.cache
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfoInputs.cache
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfo.cs
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Users\Amanda Luiza\Downloads\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.deps.json
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.AssemblyReference.cache
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfoInputs.cache
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfo.cs
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb
