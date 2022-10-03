@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Data", "src\DevIO.Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Business", "src\DevIO.Business\DevIO.Business.csproj", "{D551CCEC-0AF9-4C2F-AA65-284E50F62648}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCore", "src\ApiCore\ApiCore.csproj", "{664CE0D8-DF8F-4213-840B-712940246CB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Api", "src\DevIO.Api\DevIO.Api.csproj", "{A18E0D42-2A74-4297-AAD9-F29810D519DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{D551CCEC-0AF9-4C2F-AA65-284E50F62648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D551CCEC-0AF9-4C2F-AA65-284E50F62648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D551CCEC-0AF9-4C2F-AA65-284E50F62648}.Release|Any CPU.Build.0 = Release|Any CPU
-		{664CE0D8-DF8F-4213-840B-712940246CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{664CE0D8-DF8F-4213-840B-712940246CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{664CE0D8-DF8F-4213-840B-712940246CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{664CE0D8-DF8F-4213-840B-712940246CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A18E0D42-2A74-4297-AAD9-F29810D519DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18E0D42-2A74-4297-AAD9-F29810D519DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18E0D42-2A74-4297-AAD9-F29810D519DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18E0D42-2A74-4297-AAD9-F29810D519DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

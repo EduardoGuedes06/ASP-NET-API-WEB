@@ -31,11 +31,15 @@ namespace ApiCore
         {
             services.AddMvc();
 
+            services.AddControllers().AddNewtonsoftJson(options =>
+            options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+            );
+
             services.AddDbContext<MeuDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")); //Seta o Banco de Dados
             });
-            services.AddControllers();
+            //services.AddControllers();
             services.AddAutoMapper(typeof(Startup)); //Mapear Models
             services.ResolveDependecies(); //Dependecias 
         }

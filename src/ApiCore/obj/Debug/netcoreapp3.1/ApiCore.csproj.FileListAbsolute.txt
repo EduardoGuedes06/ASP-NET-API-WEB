@@ -205,3 +205,6 @@ C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\ApiCor
 C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\ApiCore\obj\Debug\netcoreapp3.1\ApiCore.dll
 C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\ApiCore\obj\Debug\netcoreapp3.1\ApiCore.pdb
 C:\Projetos\C#\Rest web\ASP-NET-API-WEB-main (1)\ASP-NET-API-WEB-main\src\ApiCore\obj\Debug\netcoreapp3.1\ApiCore.genruntimeconfig.cache
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
