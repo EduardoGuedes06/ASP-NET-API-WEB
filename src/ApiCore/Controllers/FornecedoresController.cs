@@ -14,7 +14,9 @@ namespace ApiCore.Controllers
         private readonly IEnderecoRepository _enderecoRepository;
         private readonly IMapper _mapper;
 
-        public FornecedoresController(IFornecedorRepository fornecedorRepository, IMapper mapper, IFornecedorService fornecedorService, IEnderecoRepository enderecoRepository)
+        public FornecedoresController(IFornecedorRepository fornecedorRepository, IMapper mapper, 
+            IFornecedorService fornecedorService, IEnderecoRepository enderecoRepository,
+            INotificador notificador) : base(notificador)
         {
             _fornecedorRepository = fornecedorRepository;
             _mapper = mapper;
@@ -44,13 +46,11 @@ namespace ApiCore.Controllers
 
         public async Task<ActionResult<FornecedorViewModel>> Adicionar(FornecedorViewModel fornecedorViewModel)
         {
-            if (ModelState.IsValid) return BadRequest();
-            var fornecedor = _mapper.Map<Fornecedor>(fornecedorViewModel);
-            var result = await _fornecedorService.Adicionar(fornecedor);
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-            if (!result) return BadRequest();
+            await _fornecedorService.Adicionar(_mapper.Map<Fornecedor>(fornecedorViewModel));
 
-            return Ok(fornecedor);
+            return CustomResponse(fornecedorViewModel);
         }
 
         [HttpPut("{id:guid}")]
