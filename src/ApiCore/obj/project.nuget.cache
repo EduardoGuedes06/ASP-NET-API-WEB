@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "CJJvnsnrD1pnBibF1dRNLbgO/2RfVjyDnFOeIAJrVubkpfivxKzGb210/mq4c8WnbsGI1q2xNYVOPy3/R1bVHg==",
+  "dgSpecHash": "fvwEXhLohvgF/vV0IXGUP4X6cHMy4Bl0K7ch6PaxSkohhk/NMxLalZLYlaXjQkPx2iEnEnJTloPrfe/zdRQxtg==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\ApiCore\\ApiCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

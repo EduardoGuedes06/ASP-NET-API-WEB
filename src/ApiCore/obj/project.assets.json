@@ -31,6 +31,19 @@
           "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "FluentValidation/10.3.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -898,6 +911,35 @@
             "rid": "win"
           }
         }
+      },
+      "DevIO.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FluentValidation": "10.3.6"
+        },
+        "compile": {
+          "bin/placeholder/DevIO.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevIO.Business.dll": {}
+        }
+      },
+      "DevIO.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DevIO.Business": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/DevIO.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevIO.Data.dll": {}
+        }
       }
     }
   },
@@ -929,6 +971,27 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "icon.png",
         "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
+    "FluentValidation/10.3.6": {
+      "sha512": "iMd370ZDx6ydm8t7bIFdRbSKX0e42lpvCtifUSbTSXOk5iKjmgl7HU0PXBhIWQAyIRi3gCwfMI9luj8H6K+byw==",
+      "type": "package",
+      "path": "fluentvalidation/10.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.3.6.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Humanizer.Core/2.8.26": {
@@ -2274,11 +2337,23 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DevIO.Business/1.0.0": {
+      "type": "project",
+      "path": "../DevIO.Business/DevIO.Business.csproj",
+      "msbuildProject": "../DevIO.Business/DevIO.Business.csproj"
+    },
+    "DevIO.Data/1.0.0": {
+      "type": "project",
+      "path": "../DevIO.Data/DevIO.Data.csproj",
+      "msbuildProject": "../DevIO.Data/DevIO.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
+      "DevIO.Business >= 1.0.0",
+      "DevIO.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.9",
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.9",
@@ -2313,7 +2388,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Business\\DevIO.Business.csproj": {
+              "projectPath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Business\\DevIO.Business.csproj"
+            },
+            "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Data\\DevIO.Data.csproj": {
+              "projectPath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Data\\DevIO.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

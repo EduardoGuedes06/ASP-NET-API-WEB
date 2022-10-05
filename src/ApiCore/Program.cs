@@ -1,4 +1,15 @@
+using DevIO.Data.Context;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Microsoft.EntityFrameworkCore;
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddDbContext<MeuDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 
 // Add services to the container.
 
