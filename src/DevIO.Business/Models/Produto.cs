@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DevIO.Business.Models
+﻿namespace DevIO.Business.Models
 {
     public class Produto : Entity
     {

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using DevIO.Business.Intefaces;
+﻿using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
 using DevIO.Business.Models.Validations;
 
@@ -19,8 +17,6 @@ namespace DevIO.Business.Services
         public async Task Adicionar(Produto produto)
         {
             if (!ExecutarValidacao(new ProdutoValidation(), produto)) return;
-
-            //var user = _user.GetUserId();
 
             await _produtoRepository.Adicionar(produto);
         }

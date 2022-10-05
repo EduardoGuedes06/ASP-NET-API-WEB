@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "61+UIP0inCNCqZI7g2Sd5id/cTQosX39vD5Riwm7XuWnUVvBfqBl9u101UiboUVx9WVFqoLpksxwEdwznImIjg==",
+  "dgSpecHash": "gwQtpDigtuGZThbH/Lo9XljigfLnhYQWQa41Ert16oujynx42SH10f9sGQqQSsx09DSAsLi2secAOq3i1z3Pmw==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Business\\DevIO.Business.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512"
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512"
   ],
   "logs": []
 }
