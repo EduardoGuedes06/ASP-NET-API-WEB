@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "yAGiwUb5GbIdYWy3CdSgzn8bF2pInT7HYpQI1D4xHZs=",
+  "Hash": "Ktsi8UQisA2IjN9iVQNCZAPgrzxcluPtQRSyRHWlAjM=",
   "Source": "ApiCore",
   "BasePath": "_content/ApiCore",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ApiCore\\wwwroot",
+      "Source": "ApiCore",
+      "ContentRoot": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\ApiCore\\wwwroot\\",
+      "BasePath": "_content/ApiCore",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\ApiCore\\wwwroot\\1783130a-9f50-452a-972a-7129959e3240_Livro Foda.jpg",
+      "SourceId": "ApiCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\ApiCore\\wwwroot\\",
+      "BasePath": "_content/ApiCore",
+      "RelativePath": "1783130a-9f50-452a-972a-7129959e3240_Livro Foda.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\1783130a-9f50-452a-972a-7129959e3240_Livro Foda.jpg"
+    },
+    {
+      "Identity": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\ApiCore\\wwwroot\\cfed210b-05ce-46d8-aa3f-d45f2f127178_Livro Foda.jpg",
+      "SourceId": "ApiCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\ApiCore\\wwwroot\\",
+      "BasePath": "_content/ApiCore",
+      "RelativePath": "cfed210b-05ce-46d8-aa3f-d45f2f127178_Livro Foda.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cfed210b-05ce-46d8-aa3f-d45f2f127178_Livro Foda.jpg"
+    }
+  ]
 }

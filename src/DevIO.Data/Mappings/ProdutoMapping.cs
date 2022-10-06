@@ -18,10 +18,6 @@ namespace DevIO.Data.Mappings
                 .IsRequired()
                 .HasColumnType("varchar(1000)");
 
-            builder.Property(p => p.Imagem)
-                .IsRequired()
-                .HasColumnType("varchar(100)");
-
             builder.ToTable("Produtos");
         }
     }

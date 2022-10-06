@@ -66,3 +66,4 @@ C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\obj\Debug\net6.0\refint\ApiCore
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\obj\Debug\net6.0\ApiCore.pdb
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\obj\Debug\net6.0\ApiCore.genruntimeconfig.cache
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\obj\Debug\net6.0\ref\ApiCore.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\ApiCore.staticwebassets.runtime.json
