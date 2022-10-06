@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DevIO.Data.Context
 {
-    public class AplicationDbContext : DbContext
+    public class MeuDbContext : DbContext
     {
-        public AplicationDbContext(DbContextOptions<AplicationDbContext> options) : base(options)
+        public MeuDbContext(DbContextOptions<MeuDbContext> options) : base(options)
         {
             ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
             ChangeTracker.AutoDetectChangesEnabled = false;
@@ -22,7 +22,7 @@ namespace DevIO.Data.Context
                     .Where(p => p.ClrType == typeof(string))))
                 property.SetColumnType("varchar(100)");
 
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(AplicationDbContext).Assembly);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(MeuDbContext).Assembly);
 
             foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys())) relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;
 

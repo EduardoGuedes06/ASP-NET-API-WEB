@@ -1,4 +1,5 @@
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.deps.json
+C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.runtimeconfig.json
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.pdb
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.dll
@@ -12,6 +13,5 @@ C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\obj\Debug\net6.0\refint\DevIO.Data.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.pdb
-C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll
-C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.runtimeconfig.json
 C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.genruntimeconfig.cache
+C:\Projetos\C#\Rest web\API.Rest-web\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll

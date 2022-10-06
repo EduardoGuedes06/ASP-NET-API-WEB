@@ -1,5 +1,6 @@
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\appsettings.Development.json
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\appsettings.json
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\ApiCore.staticwebassets.runtime.json
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\ApiCore.exe
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\ApiCore.deps.json
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\ApiCore.runtimeconfig.json
@@ -9,6 +10,10 @@ C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\AutoMapper.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\FluentValidation.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Humanizer.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -16,6 +21,9 @@ C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Enti
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -66,11 +74,3 @@ C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\obj\Debug\net6.0\refint\ApiCore
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\obj\Debug\net6.0\ApiCore.pdb
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\obj\Debug\net6.0\ApiCore.genruntimeconfig.cache
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\obj\Debug\net6.0\ref\ApiCore.dll
-C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\ApiCore.staticwebassets.runtime.json
-C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
-C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
-C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
-C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

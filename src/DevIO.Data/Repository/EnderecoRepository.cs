@@ -7,7 +7,7 @@ namespace DevIO.Data.Repository
 {
     public class EnderecoRepository : Repository<Endereco>, IEnderecoRepository
     {
-        public EnderecoRepository(AplicationDbContext context) : base(context) { }
+        public EnderecoRepository(MeuDbContext context) : base(context) { }
 
         public async Task<Endereco> ObterEnderecoPorFornecedor(Guid fornecedorId)
         {
