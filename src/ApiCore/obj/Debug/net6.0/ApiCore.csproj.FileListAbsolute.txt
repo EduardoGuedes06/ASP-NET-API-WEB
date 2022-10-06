@@ -67,3 +67,10 @@ C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\obj\Debug\net6.0\ApiCore.pdb
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\obj\Debug\net6.0\ApiCore.genruntimeconfig.cache
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\obj\Debug\net6.0\ref\ApiCore.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\ApiCore.staticwebassets.runtime.json
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

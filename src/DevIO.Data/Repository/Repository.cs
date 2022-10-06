@@ -8,10 +8,10 @@ namespace DevIO.Data.Repository
 {
     public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity, new()
     {
-        protected readonly MeuDbContext Db;
+        protected readonly AplicationDbContext Db;
         protected readonly DbSet<TEntity> DbSet;
 
-        protected Repository(MeuDbContext db)
+        protected Repository(AplicationDbContext db)
         {
             Db = db;
             DbSet = db.Set<TEntity>();
