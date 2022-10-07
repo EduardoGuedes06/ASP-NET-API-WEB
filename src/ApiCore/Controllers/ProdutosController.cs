@@ -1,4 +1,5 @@
-﻿using ApiCore.ViewModel;
+﻿using ApiCore.Extensions;
+using ApiCore.ViewModel;
 using ApiCore.ViewModels;
 using AutoMapper;
 using DevIO.Business.Intefaces;
@@ -48,8 +49,9 @@ namespace ApiCore.Controllers
             return produtoViewModel;
         }
 
-        //[ClaimsAuthorize("Produto", "Adicionar")]
+       
         [HttpPost]
+        [ClaimsAuthorize("Produto", "Adicionar")]
         public async Task<ActionResult<ProdutoViewModel>> Adicionar(ProdutoViewModel produtoViewModel)
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
@@ -59,7 +61,7 @@ namespace ApiCore.Controllers
             return CustomResponse(produtoViewModel);
         }
 
-        //[ClaimsAuthorize("Produto", "Atualizar")]
+        [ClaimsAuthorize("Produto", "Atualizar")]
         [HttpPut("{id:guid}")]
         public async Task<IActionResult> Atualizar(Guid id, ProdutoViewModel produtoViewModel)
         {
@@ -77,6 +79,7 @@ namespace ApiCore.Controllers
 
         
         [HttpDelete("{id:guid}")]
+        [ClaimsAuthorize("Produto", "Excluir")]
         public async Task<ActionResult<ProdutoViewModel>> Excluir(Guid id)
         {
             var produto = await ObterProduto(id);
