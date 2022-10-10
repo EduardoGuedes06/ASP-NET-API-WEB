@@ -1,4 +1,5 @@
-﻿using ApiCore.Extensions;
+﻿using ApiCore.Controllers;
+using ApiCore.Extensions;
 using ApiCore.ViewModel;
 using DevIO.Business.Intefaces;
 using Microsoft.AspNetCore.Identity;
@@ -9,9 +10,10 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace ApiCore.Controllers
+namespace ApiCore.V1.Controllers
 {
-    [Route("api")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}")]
     public class AuthController : HomeController
     {
         private readonly SignInManager<IdentityUser> _signInManager;
@@ -21,7 +23,8 @@ namespace ApiCore.Controllers
         public AuthController(INotificador notificador,
             SignInManager<IdentityUser> signInManager,
             UserManager<IdentityUser> userManager,
-            IOptions<AppSettings> appSethings) : base(notificador)
+            IOptions<AppSettings> appSethings,
+            IUser user) : base(notificador, user)
         {
             _signInManager = signInManager;
             _userManager = userManager;
@@ -54,7 +57,7 @@ namespace ApiCore.Controllers
             }
 
             return CustomResponse(registerUser);
-                        
+
         }
 
 
@@ -63,9 +66,9 @@ namespace ApiCore.Controllers
         [HttpPost("login")]
         public async Task<ActionResult> Login(LoginUserViewModel loginUser)
         {
-            if (!ModelState.IsValid ) return CustomResponse(ModelState);
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-            var result = await _signInManager.PasswordSignInAsync(loginUser.Email,loginUser.Password,false,true);
+            var result = await _signInManager.PasswordSignInAsync(loginUser.Email, loginUser.Password, false, true);
 
             if (result.Succeeded)
             {
@@ -112,11 +115,21 @@ namespace ApiCore.Controllers
             });
 
             var encodedToken = tokenHandler.WriteToken(token);
-
+            var response = new LoginResponseViewModel
+            {
+                AccessToken = encodedToken,
+                ExpiresIn = TimeSpan.FromHours(_appSettings.ExpiracaoHoras).TotalSeconds,
+                UserToken = new UserTokenViewModel
+                {
+                    Id = user.Id,
+                    Email = user.Email,
+                    Claims = claims.Select(c => new ClaimViewModel { Type = c.Type, Value = c.Value })
+                }
+            };
             return encodedToken;
         }
-            private static long ToUnixEpochDate(DateTime date)
-                => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
+        private static long ToUnixEpochDate(DateTime date)
+            => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
 
     }
 }

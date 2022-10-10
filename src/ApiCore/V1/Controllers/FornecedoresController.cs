@@ -4,11 +4,13 @@ using ApiCore.ViewModels;
 using AutoMapper;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiCore.Controllers
 {
-    [Route("api/fornecedores")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/fornecedores")]
     public class FornecedoresController : HomeController
     {
         private readonly IFornecedorRepository _fornecedorRepository;
@@ -16,16 +18,17 @@ namespace ApiCore.Controllers
         private readonly IEnderecoRepository _enderecoRepository;
         private readonly IMapper _mapper;
 
-        public FornecedoresController(IFornecedorRepository fornecedorRepository, IMapper mapper, 
+        public FornecedoresController(IFornecedorRepository fornecedorRepository, IMapper mapper,
             IFornecedorService fornecedorService, IEnderecoRepository enderecoRepository,
-            INotificador notificador) : base(notificador)
+            INotificador notificador,
+            IUser user) : base(notificador, user)
         {
             _fornecedorRepository = fornecedorRepository;
             _mapper = mapper;
             _fornecedorService = fornecedorService;
             _enderecoRepository = enderecoRepository;
         }
-
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<FornecedorViewModel>> ObterTodos()
         {
@@ -50,6 +53,7 @@ namespace ApiCore.Controllers
 
         public async Task<ActionResult<FornecedorViewModel>> Adicionar(FornecedorViewModel fornecedorViewModel)
         {
+
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             await _fornecedorService.Adicionar(_mapper.Map<Fornecedor>(fornecedorViewModel));
@@ -60,7 +64,7 @@ namespace ApiCore.Controllers
         [ClaimsAuthorize("Fornecedor", "Atualizar")]
         [HttpPut("{id:guid}")]
 
-        public async Task<ActionResult<FornecedorViewModel>> Atualizar(Guid id,FornecedorViewModel fornecedorViewModel)
+        public async Task<ActionResult<FornecedorViewModel>> Atualizar(Guid id, FornecedorViewModel fornecedorViewModel)
         {
             if (id != fornecedorViewModel.Id)
             {
@@ -93,11 +97,15 @@ namespace ApiCore.Controllers
         public async Task<EnderecoViewModel> ObterEnderecoPorId(Guid id)
         {
             return _mapper.Map<EnderecoViewModel>(await _enderecoRepository.ObterPorId(id));
-        }   
+        }
+
+        [HttpGet("obter-endereco-fornecedor-produtos-endereco/{id:guid}")]
         public async Task<FornecedorViewModel> ObterFornecedorProdutosEndereco(Guid id)
         {
             return _mapper.Map<FornecedorViewModel>(await _fornecedorRepository.ObterFornecedorProdutosEndereco(id));
         }
+
+        [HttpGet("obter-endereco-fornecedor/{id:guid}")]
         public async Task<FornecedorViewModel> ObterFornecedorEndereco(Guid id)
         {
             return _mapper.Map<FornecedorViewModel>(await _fornecedorRepository.ObterFornecedorEndereco(id));

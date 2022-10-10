@@ -13,7 +13,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "api/fornecedores",
+      "launchUrl": "api/v1/fornecedores",
       "applicationUrl": "https://localhost:7185;http://localhost:5185",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

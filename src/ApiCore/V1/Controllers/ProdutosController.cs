@@ -1,4 +1,5 @@
-﻿using ApiCore.Extensions;
+﻿using ApiCore.Controllers;
+using ApiCore.Extensions;
 using ApiCore.ViewModel;
 using ApiCore.ViewModels;
 using AutoMapper;
@@ -7,9 +8,10 @@ using DevIO.Business.Models;
 using DevIO.Business.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ApiCore.Controllers
+namespace ApiCore.V1.Controllers
 {
-    [Route("api/produtos")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/produtos")]
     public class ProdutosController : HomeController
     {
         private readonly IProdutoRepository _produtoRepository;
@@ -21,10 +23,8 @@ namespace ApiCore.Controllers
                                   IProdutoRepository produtoRepository,
                                   IProdutoService produtoService,
                                   IMapper mapper,
-                                  //IUser user,
-                                  IHttpContextAccessor httpContextAccessor) : base(notificador
-                                                                                                //,user
-                                                                                                )
+                                  IUser user,
+                                  IHttpContextAccessor httpContextAccessor) : base(notificador, user)
         {
             _produtoRepository = produtoRepository;
             _produtoService = produtoService;
@@ -49,7 +49,7 @@ namespace ApiCore.Controllers
             return produtoViewModel;
         }
 
-       
+
         [HttpPost]
         [ClaimsAuthorize("Produto", "Adicionar")]
         public async Task<ActionResult<ProdutoViewModel>> Adicionar(ProdutoViewModel produtoViewModel)
@@ -77,7 +77,7 @@ namespace ApiCore.Controllers
             return CustomResponse(produtoViewModel);
         }
 
-        
+
         [HttpDelete("{id:guid}")]
         [ClaimsAuthorize("Produto", "Excluir")]
         public async Task<ActionResult<ProdutoViewModel>> Excluir(Guid id)

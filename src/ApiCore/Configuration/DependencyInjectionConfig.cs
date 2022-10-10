@@ -1,9 +1,11 @@
-﻿using DevIO.Business.Intefaces;
+﻿using ApiCore.Extensions;
+using DevIO.Business.Intefaces;
 using DevIO.Business.Notificacoes;
 using DevIO.Business.Services;
 using DevIO.Data.Context;
 using DevIO.Data.Repository;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
@@ -23,6 +25,9 @@ namespace ApiCore.Configuration
             services.AddScoped<IProdutoService, ProdutoService>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<IUser, AspNetUser>();
+
+            //services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
 
             return services;
         }

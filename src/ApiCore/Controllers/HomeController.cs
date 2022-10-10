@@ -9,22 +9,22 @@ namespace ApiCore.Controllers
     public class HomeController : ControllerBase
     {
         private readonly INotificador _notificador;
-        //public readonly IUser AppUser;
+        public readonly IUser AppUser;
 
         protected Guid UsuarioId { get; set; }
         protected bool UsuarioAutenticado { get; set; }
 
-        protected HomeController(INotificador notificador //,IUser appUser
+        protected HomeController(INotificador notificador, IUser appUser
                                                            )
         {
             _notificador = notificador;
-            //AppUser = appUser;
+            AppUser = appUser;
 
-            //if (appUser.IsAuthenticated())
-            //{
-            //    UsuarioId = appUser.GetUserId();
-            //    UsuarioAutenticado = true;
-            //}
+            if (appUser.IsAuthenticated())
+            {
+                UsuarioId = appUser.GetUserId();
+                UsuarioAutenticado = true;
+            }
         }
 
         protected bool OperacaoValida()
