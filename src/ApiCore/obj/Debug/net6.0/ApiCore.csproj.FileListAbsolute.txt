@@ -77,3 +77,9 @@ C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\obj\Debug\net6.0\ref\ApiCore.dl
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\HealthChecks.UI.Client.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\HealthChecks.UI.Core.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projetos\C#\Rest web\API.Rest-web\src\ApiCore\bin\Debug\net6.0\System.Text.Json.dll
