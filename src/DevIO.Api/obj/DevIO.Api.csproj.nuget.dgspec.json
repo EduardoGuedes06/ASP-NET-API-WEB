@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Api\\DevIO.Api.csproj": {}
+    "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Api\\DevIO.Api.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Api\\DevIO.Api.csproj": {
+    "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Api\\DevIO.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Api\\DevIO.Api.csproj",
+        "projectUniqueName": "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Api\\DevIO.Api.csproj",
         "projectName": "DevIO.Api",
-        "projectPath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Api\\DevIO.Api.csproj",
+        "projectPath": "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Api\\DevIO.Api.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Api\\obj\\",
+        "outputPath": "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,19 +21,17 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/megaleios/_packaging/UtilityFramework/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Business\\DevIO.Business.csproj": {
-                "projectPath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Business\\DevIO.Business.csproj"
+              "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Business\\DevIO.Business.csproj": {
+                "projectPath": "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Business\\DevIO.Business.csproj"
               },
-              "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Data\\DevIO.Data.csproj": {
-                "projectPath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Data\\DevIO.Data.csproj"
+              "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Data\\DevIO.Data.csproj": {
+                "projectPath": "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Data\\DevIO.Data.csproj"
               }
             }
           }
@@ -158,14 +156,14 @@
         }
       }
     },
-    "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Business\\DevIO.Business.csproj": {
+    "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Business\\DevIO.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectUniqueName": "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Business\\DevIO.Business.csproj",
         "projectName": "DevIO.Business",
-        "projectPath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectPath": "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Business\\DevIO.Business.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Business\\obj\\",
+        "outputPath": "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -175,9 +173,7 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/megaleios/_packaging/UtilityFramework/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -220,14 +216,14 @@
         }
       }
     },
-    "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Data\\DevIO.Data.csproj": {
+    "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Data\\DevIO.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectUniqueName": "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Data\\DevIO.Data.csproj",
         "projectName": "DevIO.Data",
-        "projectPath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectPath": "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Data\\DevIO.Data.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Data\\obj\\",
+        "outputPath": "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -237,16 +233,14 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/megaleios/_packaging/UtilityFramework/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Business\\DevIO.Business.csproj": {
-                "projectPath": "C:\\Projetos\\C#\\Rest web\\API.Rest-web\\src\\DevIO.Business\\DevIO.Business.csproj"
+              "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Business\\DevIO.Business.csproj": {
+                "projectPath": "C:\\Projetos\\C#\\ASP-NET-API-WEB\\src\\DevIO.Business\\DevIO.Business.csproj"
               }
             }
           }
